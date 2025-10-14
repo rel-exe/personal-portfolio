@@ -4,10 +4,10 @@ import { Icon } from '@iconify/react'
 export default function Navigation() {
   const links = [
     { id: 'home', icon: 'ic:round-home', title: 'Home' },
-    { id: 'about', icon: 'ic:round-person', title: 'About' },
+    { id: 'biography', icon: 'ic:round-person', title: 'About' },
     { id: 'resume', icon: 'ic:round-school', title: 'Resume' },
-    { id: 'portfolio', icon: 'ic:round-business-center', title: 'Portfolio' },
-    { id: 'blog', icon: 'ic:round-menu-book', title: 'Blog' },
+    { id: 'projects', icon: 'ic:round-business-center', title: 'Portfolio' },
+    { id: 'skills', icon: 'ic:round-menu-book', title: 'Blog' },
     { id: 'contact', icon: 'ic:round-phone', title: 'Contact' },
   ]
 
