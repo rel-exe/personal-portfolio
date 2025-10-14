@@ -2,10 +2,10 @@ import React from "react";
 import Navigation from "./components/Navigation";
 import Sidebar from "./components/Sidebar";
 import Home from "./components/Home";
-import About from "./components/About";
+import Biography from "./components/Biography";
+import Skills from "./components/Skills";
+import Projects from "./components/Projects";
 import Resume from "./components/Resume";
-import Portfolio from "./components/Portfolio";
-import Blog from "./components/Blog";
 import Contact from "./components/Contact";
 
 export default function App() {
@@ -15,10 +15,10 @@ export default function App() {
       <Sidebar />
       <main className="content">
         <Home />
-        <About />
+        <Biography />
+        <Skills />
         <Resume />
-        <Portfolio />
-        <Blog />
+        <Projects />
         <Contact />
       </main>
     </div>
