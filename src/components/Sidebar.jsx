@@ -16,7 +16,7 @@ export default function Sidebar() {
       <div className="sidebar-top text-center">
         <img
           className="profile"
-          src="/images/profile-placeholder.jpg"
+          src="/images/profile.jfif"
           alt="John Russel Regalado"
         />
         <h2>John Russel Regalado</h2>
